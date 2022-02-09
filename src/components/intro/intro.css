@@ -1,8 +1,12 @@
 /* Introduction  */
+*{
+    background-color: #FAF9F6;
+}
+
 
 .intro {
     display: grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 70% 30%;
 }
 
 .i-left {
@@ -61,4 +65,14 @@
     /* background-color: black; */
     display: flex;
     align-items: center;
+}
+
+.i-desc {
+    color: #800000;
+}
+
+.i-img {
+    width: 100%;
+    /* object-fit: cover; */
+    height: 780px;
 }
