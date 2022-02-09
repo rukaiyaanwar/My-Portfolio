@@ -2,15 +2,20 @@
 
 .intro {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 65% 35%;
 }
 
 .i-left {
     display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 .i-left-wrapper {
     padding: 50px;
+    height: 50%;
+    display: grid;
+    justify-content: space-between;
 }
 
 .i-intro {
@@ -20,6 +25,7 @@
 
 .i-name {
     font-size: 60px;
+    color: #800000;
 }
 
 .i-title-wrapper {
@@ -51,8 +57,8 @@
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color: #59b256;
-    background-color: black;
+    color: #800000;
+    /* background-color: black; */
     display: flex;
     align-items: center;
 }
